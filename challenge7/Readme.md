@@ -40,6 +40,7 @@ First I'll replace all lines that perform operations on the characters, and that
 ![alt text](https://github.com/pr0li/flareon9writeup/blob/main/challenge7/img/06.png "Before and after the replaced lines")
 
 The regex to do this is:
+
 **Find what:**
 ```
           (b\[[0-9]{1,2}\] [\-\+\^]= )\(?(b\[.+ \+ )(Math.+256\))(\) & 0xFF)?;
