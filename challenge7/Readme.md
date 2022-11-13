@@ -33,7 +33,7 @@ I will add this to the start of the script.
 
 ![alt text](https://github.com/pr0li/flareon9writeup/blob/main/challenge7/img/05.png "Added alias for console.log to the script")
 
-Then I'm going to start replacing every line that does some operation to a character in our input for **"c()"** to log the operation. I don't care about the actual result of the operation at this point, but I do care about the **Math.floor** and **Math.random** being executed because they need to be executed in the right order to produce the right results.
+Then I'm going to start replacing every line that does some operation to a character in our input for **"c()"** to log the operation. I don't care about the actual result of the operation at this point, but I do care about the **Math.floor** and **Math.random** results, because they are not so random after all.
 
 First I'll replace all lines that perform operations on the characters, and that involve the altered libraries. The next image shows a *"before"* and *"after"* of one of these replacements.
 
