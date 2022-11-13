@@ -2,7 +2,7 @@
 
 This challenge is a **node.js** script that has been compiled into an executable file. You'll notice right away that the executable is a very big file (54 MB). If you open the binary in a text editor (but please don't do that in notepad :D) and go to the end of the file, you'll be able to see the js script that is executed.
 
-There are thousands of lines in the js code and a huge switch statement with a ton of different cases. In other words, lovely **control flow obfuscation**. Before the switch statement, the program takes an input from the user, then several math operations are performed to the individual characters of the input, and finally the result is compared to some hardcoded values at the end of the script.
+There are thousands of lines in the js code and a huge switch statement with a ton of different cases. In other words, lovely **control flow obfuscation**. Before the switch statement, the program takes an input string from the user, then several math operations are performed to the individual characters of the input, and finally the result is compared to some hardcoded values at the end of the script.
 
 ![alt text](https://github.com/pr0li/flareon9writeup/blob/main/challenge7/img/01.png "First look at the script at the end of the binary file")
 
